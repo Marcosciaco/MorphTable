@@ -15,11 +15,13 @@ td {
 th {
     background: #222222;
     border-bottom: 1px solid black;
+    border-left: 1px solid lightgray;
     color: white;
 }
 
 td {
     border-bottom: 1px solid black;
+    border-left: 1px solid lightgray;
 }
 
 tr:nth-child(even) {
