@@ -1,0 +1,83 @@
+.frame {
+    background: linear-gradient(90deg, rgb(110, 21, 49) 0%, rgb(17, 17, 17) 100%);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.city {
+    color: #ffffff;
+    font-family: "noto-sans", Helvetica;
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.temperature {
+    color: #ffffff;
+    font-family: "noto-sans", Helvetica;
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.left {
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.info {
+    color: #d9d9d9;
+    font-family: "noto-sans", Helvetica;
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 100%;
+    text-align: end;
+    white-space: nowrap;
+}
+
+.nav_link {
+    color: #000000;
+    font-family: "noto-sans", Helvetica;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;    
+}

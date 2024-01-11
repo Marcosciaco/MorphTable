@@ -39,11 +39,17 @@ const Table: React.FC<Props> = ({ data, formatters }) => {
         return data.map(((row, index) => renderRow(row, index)));
     }    
 
+    // add a back button returning to the home
     return (
-        <table>
-            <thead>{renderHeader()}</thead>
-            <tbody>{renderBody()}</tbody>
-        </table>
+        <div>
+            <div>
+                <a href="/" className="nav_link">Return to Home</a>
+            </div>
+            <table>
+                <thead>{renderHeader()}</thead>
+                <tbody>{renderBody()}</tbody>
+            </table>
+        </div>
     );
 };
 

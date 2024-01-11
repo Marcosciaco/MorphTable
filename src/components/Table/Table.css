@@ -47,3 +47,14 @@ tr:first-child td:first-child {
 tr:first-child td:last-child {
     border-top-right-radius: 0.5em;
 }
+
+.nav_link {
+    color: #000000;
+    font-family: "Anonymous Pro", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;    
+}

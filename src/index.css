@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'noto-sans';
+    font-weight: 400;
+    src: url('./assets/fonts/noto-sans-latin-200-normal.ttf') format('truetype');
+}
